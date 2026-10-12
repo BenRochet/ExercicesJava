@@ -1,0 +1,86 @@
+﻿J’ai tapé : « 10 » / « 2 »
+J’attendais : Une division de 10 par 2 soit 5
+J’ai obtenue : 5
+
+J’ai tapé « 10 »+ « 20 »
+J’attendais : 30
+J’ai obtenue : « 1020 »
+
+J’ai tapé « 10 » * « 20 »
+J’attendais : 200
+J’ai obtenue : 200
+
+Le + concatène, le - soustraie « uniquement nombre ».
+Le * multiplie « uniquement nombre ».
+
+KATA   fizz-buzz.js
+
+Entrée : Un nombre
+
+Sortie : Un string. Fizz, Buzz ou FizzBuzz
+
+Logique : si divisible par 3 Fizz.
+		si divisible par 5 Buzz
+		si divisible par 3 e t 5 FizzBuzz
+		sinon le nombre en entrée au format string
+
+KATA Math_min
+
+Entrée: deux variables
+
+Sortie: Le nombre le plus petit ou un NaN
+
+Logique: comparer deux nombres puis retourner le plus petit.
+Inclure une gestion des strings ou d’une fonction sans variables.
+Retourner le nombre le plus petit ou un NaN
+
+KATA math-Pow
+
+Entrée: Deux Variables X et Y
+
+Sortie : X à la puissance Y. Ou Nan
+
+logique : multipliés X, Y fois. X puissance 0 = 1.
+Si X ou Y NaN alors renvoie NaN. Si X sans Y alors NaN.
+
+KATA sum-of-multiples
+
+Entrée: un nombre n
+
+Sortie: la somme des multiples de 3 et 5 < n
+
+logique: faire une boucle i de 1 à n-1. Si i%3 ou i%5 alors somme = somme + i
+
+Aide Mémoire tableaux
+#########################################################################################""""
+Modifient l'original				Laissent l'original intact
+
+push, pop, shift, unshift			slice, concat
+splice, reverse, sort				join, includes, indexOf
+##########################################################################################"""
+
+Gérer la methode tri(tab.sort()) des tableaux.
+La fonction tri converti les elts de tab en string puis les classes.
+On peut parametrer la methode:
+
+Numbers est un tableau de nombres
+numbers.sort((a, b) => a - b);
+
+négatif : a passe devant b ;
+positif : b passe devant a ;
+zéro : ils gardent leur ordre.
+
+#########################################################################################"
+Différent evenements pour JavaScript
+
+click        un clic
+mouseenter   la souris entre sur l'élément
+mouseleave   la souris en sort
+input        le contenu d'un champ change, à chaque frappe
+submit       un formulaire est envoyé
+keydown      une touche est enfoncée
+
+#########################################################################################""
+Pour enlever un fichier du tracking et la prise en charge du .gitignore.
+Entrer la commande
+git rm --cached <files>
